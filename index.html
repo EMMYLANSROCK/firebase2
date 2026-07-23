@@ -201,6 +201,85 @@ button{
 }
 
 }
+    #loginPage{
+    width:380px;
+    margin:80px auto;
+    padding:35px;
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(15px);
+    border:1px solid rgba(255,255,255,0.3);
+    border-radius:20px;
+    box-shadow:0 15px 35px rgba(0,0,0,0.3);
+    text-align:center;
+}
+
+
+#loginPage h2{
+    color:#0f172a;
+    font-size:30px;
+    font-weight:bold;
+    margin-bottom:30px;
+}
+
+
+/* INPUT MODERN STYLE */
+#loginPage input{
+    width:100%;
+    padding:14px;
+    margin:10px 0;
+    border:none;
+    outline:none;
+    background:rgba(255,255,255,0.9);
+    border-radius:12px;
+    font-size:15px;
+    box-sizing:border-box;
+    transition:0.3s;
+}
+
+
+#loginPage input:focus{
+    box-shadow:0 0 10px #1a73e8;
+    transform:scale(1.02);
+}
+
+
+/* BUTTON MODERN STYLE */
+#loginPage button{
+    width:100%;
+    padding:14px;
+    margin-top:12px;
+    border:none;
+    border-radius:12px;
+    background:linear-gradient(135deg,#1a73e8,#0f172a);
+    color:white;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+
+#loginPage button:hover{
+    transform:translateY(-3px);
+    box-shadow:0 8px 20px rgba(26,115,232,0.5);
+}
+
+
+/* Forgot Password button */
+#loginPage button:last-child{
+    background:linear-gradient(135deg,#43a047,#2e7d32);
+}
+
+
+/* MOBILE */
+@media(max-width:500px){
+
+#loginPage{
+    width:90%;
+    padding:25px;
+}
+
+}
 </style>
 </head>
 
